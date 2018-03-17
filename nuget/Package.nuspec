@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GameCtor.Bindings.Android.SectionedRecyclerView</id>
+    <version>1.0.1</version>
+    <authors>Colt Alan Bauman</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin Android bindings for SectionedRecyclerViewAdapter by luizgrp</description>
+    <projectUrl>https://github.com/cabauman/SectionedRecyclerViewBindings</projectUrl>
+    <releaseNotes>Initial release.</releaseNotes>
+    <dependencies>
+      <group targetFramework="MonoAndroid80">
+        <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2" />
+        <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="27.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\bin\Release\SectionedRecyclerViewBindings.dll" target="lib/MonoAndroid80" />
+  </files>
+</package>
